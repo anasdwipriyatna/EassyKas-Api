@@ -10,7 +10,7 @@ const db = mysql.createConnection({
     host: "localhost",
     user: "root",
     password: "",
-    database: "easykas",
+    database: "eassykas",
 })
 
 app.get('/tabsiswa', (req, res) => {
